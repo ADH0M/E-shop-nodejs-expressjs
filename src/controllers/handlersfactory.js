@@ -2,6 +2,8 @@ const asyncHandler = require('express-async-handler');
 const ApiError = require('../../utils/apiError');
 const { logger } = require('../helper/logger');
 
+
+
 exports.getONe = (Model) => {
     try{
         return asyncHandler( async ( req , res , next ) => {
@@ -29,9 +31,9 @@ exports.getAll = (Model) =>{
                 return next(new ApiError('not found users ',404 ))
             }
 
-            logger.info(`return all users`);
+            logger.info(`return all `);
             const filteredData = data.map(user => {
-                const { password, ...rest } = user.dataValues;
+                const { password , createdAt , updatedAt , ...rest } = user.dataValues;
                 return rest;
             });
 
@@ -44,8 +46,31 @@ exports.getAll = (Model) =>{
     })
 }
 
-// exports.createOne = ( Model ) => {
-//     return asyncHandler( async ( req , res , next ) => {
-//         const {}
-//     })
-// }
+exports.createOne = (Model) => 
+    asyncHandler( async ( req , res , next ) => {
+        const newDoc = await Model.create({...req.body});
+    });
+
+
+exports.deleteOne =(Model)=>
+    asyncHandler( async ( req , res , next) => {
+        try{
+            const {name} = req.body;
+        const data = await Model.findOne({where:{name:name}});
+        if(!data){
+            return next(new ApiError('Not found in database .',404))
+        }
+        
+        await Model.destroy({where:{name:name}});
+        logger.warn('delete item succeful.');
+        res.status(200).json({
+            state:'warring',
+            data:null,
+            message:'item delete succefully'
+        })
+
+        }catch(err){
+            logger.error(err);
+            next( new Error(err));
+        }
+    })

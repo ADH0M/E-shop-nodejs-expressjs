@@ -1,5 +1,6 @@
 const {connectMysql} = require('../database/connectMysql');
-const {DataTypes} =require('sequelize');
+const {DataTypes} = require('sequelize');
+
 const Product = connectMysql.define('Image',{
     productName:{type:DataTypes.STRING(255),allowNull:false},
     filename:{type:DataTypes.STRING(255),allowNull:false},

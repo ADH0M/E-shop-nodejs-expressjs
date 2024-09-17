@@ -9,10 +9,10 @@ const {logger} = require('./src/helper/logger');
 const { connectMysql } = require('./src/database/connectMysql');
 const v1Route = require('./src/v1Routes/v1Routes');
 const app  = express();
-const PORT = process.env.PORT ||3000 ;
-const Redis = require('ioredis');
-const axios =require('axios');
-const cheerio =require('cheerio');
+const PORT    = process.env.PORT ||3000 ;
+const Redis   = require('ioredis');
+const axios   = require('axios');
+const cheerio = require('cheerio');
 const helmet = require('helmet');
 
 const cors = require('cors');

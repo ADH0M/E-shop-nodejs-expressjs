@@ -8,6 +8,7 @@ const {
   DeleteProducts,
   productImg,
   resizeProductImg,
+  createProduct,
 } = require("../../controllers/contorlProducts");
 const path = require("path");
 
@@ -18,6 +19,7 @@ route.use(
   express.static(path.join(__dirname, "../../upload/products"))
 );
 
+route.post('/creat-new-product' , createProduct)
 route.post("/prodcuts/upload", upload.single("image"), ProductUPload);
 route.post("/p/upload", productImg, resizeProductImg, (req, res, next) => {
   res.json({

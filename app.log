@@ -1178,3 +1178,66 @@
 {"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T14:18:50.221Z"}
 {"level":"info","message":"connected db","timestamp":"2024-09-16T14:19:52.400Z"}
 {"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T14:19:52.424Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:09:30.736Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:09:30.765Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:13:23.668Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:13:23.699Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:15:30.462Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:15:30.496Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:15:46.105Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:15:46.125Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:21:28.821Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:21:28.841Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:27:31.880Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:27:31.902Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:28:32.517Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:28:32.536Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:28:49.803Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:28:49.832Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:29:02.868Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:29:02.890Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:29:33.616Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:29:33.644Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:42:38.605Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:42:38.627Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-16T22:42:38.773Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:44:14.215Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:44:14.239Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-16T22:44:14.377Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:45:28.436Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:45:28.457Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-16T22:45:28.593Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:45:56.271Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:45:56.318Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-16T22:45:56.563Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-16T22:48:30.673Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-16T22:48:30.696Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-16T22:48:30.838Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T00:43:17.560Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T00:43:17.594Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T00:43:17.796Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T00:48:10.959Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T00:48:10.981Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T00:48:11.130Z"}
+{"level":"error","message":"an error on update category  slugify: string argument expected","stack":"Error: slugify: string argument expected\n    at replace (F:\\Node js\\code\\express js\\E-shop\\node_modules\\slugify\\slugify.js:20:13)\n    at F:\\Node js\\code\\express js\\E-shop\\src\\services\\categoryServices.js:25:22\n    at asyncUtilWrap (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express-async-handler\\index.js:3:20)\n    at Layer.handle [as handle_request] (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-17T00:48:13.938Z"}
+{"level":"error","message":"an error on update category  slugify: string argument expected","stack":"Error: slugify: string argument expected\n    at replace (F:\\Node js\\code\\express js\\E-shop\\node_modules\\slugify\\slugify.js:20:13)\n    at F:\\Node js\\code\\express js\\E-shop\\src\\services\\categoryServices.js:25:22\n    at asyncUtilWrap (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express-async-handler\\index.js:3:20)\n    at Layer.handle [as handle_request] (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at middleware (F:\\Node js\\code\\express js\\E-shop\\node_modules\\express-validator\\lib\\middlewares\\check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2024-09-17T00:48:43.573Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T00:49:11.713Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T00:49:11.737Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T00:49:11.875Z"}
+{"level":"info","message":"update categroy id that id:2 to new name one chips ","timestamp":"2024-09-17T00:49:58.875Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T00:59:09.201Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T00:59:09.223Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T00:59:09.365Z"}
+{"level":"info","message":"update categroy id that id:2 to new name one chips ","timestamp":"2024-09-17T00:59:12.468Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T01:01:13.790Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T01:01:13.811Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T01:01:13.946Z"}
+{"level":"info","message":"return all ","timestamp":"2024-09-17T01:01:15.330Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T01:02:13.309Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T01:02:13.333Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T01:02:13.466Z"}
+{"level":"info","message":"return all ","timestamp":"2024-09-17T01:02:15.153Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T01:02:40.840Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T01:02:40.862Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T01:02:41.000Z"}
+{"level":"info","message":"return all ","timestamp":"2024-09-17T01:02:52.031Z"}

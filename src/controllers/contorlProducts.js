@@ -4,6 +4,7 @@ const sharp =require('sharp');
 const {v4:uuidv4} =require('uuid');
 const { uploadSingleImage } = require('../middleware/uploadImageMiddleware');
 const expressAsyncHandler = require('express-async-handler');
+const { createOne } = require('./handlersfactory');
 
 
 exports.productImg = uploadSingleImage('product');
@@ -23,7 +24,7 @@ exports.resizeProductImg = expressAsyncHandler ( async ( req , res , next ) => {
 });
 
 
-
+exports.createProduct = createOne(Product);
 
 exports.getAllProducts = async (req,res ,next )=>{
     const data = await Product.findAll();

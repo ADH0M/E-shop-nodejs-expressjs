@@ -1,6 +1,6 @@
 const { Router } = require('express') ;
 const route = Router();
-const { signUp , updatePassword  ,logIn } = require('../../services/AuthServices')
+const { signUp , updatePassword  , logIn } = require('../../services/AuthServices')
 const { singUpValidator , updatePassValidate , logInValidator } =require('../../validators/authValidator')
 
 route.post('/signup' , singUpValidator , signUp );
