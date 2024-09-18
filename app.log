@@ -1241,3 +1241,8 @@
 {"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T01:02:40.862Z"}
 {"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T01:02:41.000Z"}
 {"level":"info","message":"return all ","timestamp":"2024-09-17T01:02:52.031Z"}
+{"level":"info","message":"connected db","timestamp":"2024-09-17T01:18:38.580Z"}
+{"level":"info","message":"server is runnig on port 3000","timestamp":"2024-09-17T01:18:38.606Z"}
+{"level":"info","message":"Table created in MySQL database categories ","timestamp":"2024-09-17T01:18:38.784Z"}
+{"level":"warn","message":"delete item succeful.","timestamp":"2024-09-17T01:19:17.728Z"}
+{"level":"info","message":"return all ","timestamp":"2024-09-17T01:19:31.067Z"}
